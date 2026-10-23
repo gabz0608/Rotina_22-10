@@ -24,5 +24,5 @@ export function deletar(id) {
 }
 
 export function pesquisar(cpf, nome) {
-    return get(pastaPessoas);
+    return get(pastaPessoas, { cpf, nome );
 }
